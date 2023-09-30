@@ -1,0 +1,34 @@
+*{background-color: #e7e698;}
+
+h3
+{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.blockNews
+{
+    width: 900px;
+}
+
+.blockNews h3
+{
+    color: #614106;
+}
+.line
+{
+    background-color: #50e4d7;
+    height: 20px;
+}
+a
+{
+    text-decoration: none;
+    background-color: #aac510;
+    color: #1a1919;
+    border-radius: 10px;
+}
+#DDR5Ryzen
+{
+    font-size: 20px;
+    font-style: italic;
+}
