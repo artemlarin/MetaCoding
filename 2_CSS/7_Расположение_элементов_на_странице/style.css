@@ -1,0 +1,113 @@
+*{background-color: #e7e698;}
+
+p
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 8px;
+    margin-top: 0px;
+}
+
+h3
+{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 5px;
+}
+
+span
+{
+    background-color: #DDA0DD;
+}
+
+.blockNews
+{
+    /*width: 1200px;*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(1, 280px);
+    grid-gap: 20px;
+}
+
+.blockNews h3
+{
+    background: #50e4d7;
+    padding-bottom: 15px;
+    color: #614106;
+}
+a
+{
+    text-decoration: none;
+    background-color: #aac510;
+    color: #1a1919;
+    border-radius: 10px;
+}
+#DDR5Ryzen
+{
+    font-size: 10px;
+    font-style: italic;
+}
+.mars
+{
+    height: 100px;
+    background-image: url(https://www.techinsider.ru/upload/custom/e01/e01f454112c7345f6d584e8b32382af4.jpg);
+    border-radius: 15px;
+    background-size: cover;
+    margin: 10px 0px 10px 0px;
+}
+.mars2
+{
+    height: 100px;
+    background-image: url(https://www.techinsider.ru/upload/custom/e01/e01f454112c7345f6d584e8b32382af4.jpg);
+    border-radius: 15px;
+    background-size: cover;
+    margin: 0px 0px 10px 0px;
+}
+.lyna
+{
+    height: 100px;
+    background: url(https://cdn.tvc.ru/pictures/o/494/792.jpg) no-repeat;
+    /*background-image: url(https://cdn.tvc.ru/pictures/o/494/792.jpg)
+    background-repeat: no-repeat;*/
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.sport
+{
+   height: 100px;
+   background: url(https://www.jdplc.com/sites/jd-sportsfashion-plc/files/styles/desktop/public/Sport%20Fashion%201.jpg?itok=FyMvcsa4);
+   background-size: 100%;
+   background-position: 0% 25%;
+   border-radius: 10px;
+   margin: 0px 0px 10px 0px;
+}
+
+a:link{color: #ad590a;}
+a:visited{color: #5c0546;}
+a:hover
+{
+    color: #0a29d6;
+    background-color: #61810a;
+}
+a:active
+{
+    color: #c50d0d;
+    background-color: #d3d60a;
+}
+
+.news
+{
+    margin-top: 20px;
+}
+.news1
+{
+    margin-top: 0px;
+}
