@@ -1,0 +1,1 @@
+document.write("<h1>Подключили внешний файл JavaScript</h1>");
